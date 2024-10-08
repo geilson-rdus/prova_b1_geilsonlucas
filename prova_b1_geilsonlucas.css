@@ -105,6 +105,7 @@ main figcaption{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
+    width: 354px;
 }
 
 footer{
@@ -112,4 +113,23 @@ footer{
     height: 50px;
     width: 100%;
     bottom: 0; 
+}
+
+@media screen and (max-width:800px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main #imagens{
+        margin-top: 25px;
+        margin-right: 0px;
+    }
+    
+    main #imagens2{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
 }
